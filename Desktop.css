@@ -1,0 +1,36 @@
+@media(min-width: 600px){
+main{margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 800px;
+}
+.img-container{
+    border-radius: 0px 15px 15px 0px;
+}
+.img{
+    height: 348px;
+    border-radius: 0px 15px 15px 0px;
+}
+.text-container{
+    align-items: center;
+    justify-content: center;
+}
+
+.stats-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text-container h1{
+text-align: start;
+margin-top: 20px;
+}
+.main-text{
+    width: 90%;
+    text-align: start;
+}
+.stats-container h2:hover{
+    font-size: x-large;
+    cursor: pointer;
+}
+}
